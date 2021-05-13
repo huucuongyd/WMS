@@ -1,0 +1,148 @@
+header{
+    background-color: #2F4F4F;
+    padding-top: auto;
+    height: 50px;
+    width: 100%;
+    color: white;
+    box-shadow: 1px 1px 1px grey;
+    display: block;
+}
+header div{
+    font-family: system-ui;
+    font-size: large;
+    transform: translateY(13px);
+    padding-left: 40px;
+    font-weight: 700;
+}
+.left {
+    background-color: #0A122A;
+    float: left;
+    width: 250px;
+    height: 100%;
+    font-family: system-ui;
+    color: white;
+    box-shadow: 1px 1px 1px grey;
+}
+.left p{
+    opacity: 0.5;
+    margin-left: 5px;
+}
+.but{
+
+    background-color: #072e69;
+    height: 32px;
+    padding-left: 20px;
+}
+.but:hover{
+    background-color: #69a2f8;
+    height: 35px;
+    padding-top: 4px;
+}
+.imagebut{
+    height: 20px;
+    width: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    transform: translateY(5px);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.list {
+    padding-left: 20px;
+     
+}
+.list li{
+    list-style-type: circle;
+    height: 25px;
+    padding-left: 10px;
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+.list li:hover{
+    background-color: #69a2f8;
+    height: 30px;
+    padding-top: 5px;
+}
+body {
+    background-color: rgb(212, 212, 212);
+}
+.frame{
+    margin-top: 5px;
+    margin-left: 270px;
+    height: auto;
+    width: 80%;
+    background-color: white;
+    box-shadow: grey;
+    border-radius: 5px;
+}
+.inside{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: system-ui;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    
+}
+.themmoi{
+    font-family: system-ui;
+    color: white;
+    width: 120px;
+    float: right;
+    height: 40px;
+    background-color: rgb(0, 165, 41);
+    border-radius: 3px;
+    border: none;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.inside span{
+    font-weight: 600;
+}
+.bang{
+    margin-top: 50px;
+    margin-left: 50px;
+    border-collapse: collapse;
+    width: 90%;
+    font-weight: 500;
+}
+.bang td,th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.bang td div{
+    text-align: center;
+}
+.textbox{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 30px;
+    width: 80%;
+    border: solid rgb(224, 224, 224) 1px;
+    background-color:  rgb(242, 253, 255);
+    border-radius: 1px;
+}
+.submit{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(0, 56, 139);
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+.chart{
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 400px;
+    height: 400px;
+}

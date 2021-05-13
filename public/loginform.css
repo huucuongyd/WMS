@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(224, 224, 224);
+}
+.form {
+    height: 200px;
+    width: 400px;
+    margin: auto auto;
+    margin-top: 15%;
+    background-color: white;
+    box-shadow: 1px 1px 1px grey;
+    font-family: system-ui;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 2px;
+}
+.textbox{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 25px;
+    width: 80%;
+    border: solid rgb(224, 224, 224) 1px;
+    background-color:  rgb(242, 253, 255);
+    border-radius: 1px;
+}
+
+.btn{
+    margin-top: 10px;
+    float: right;
+    margin-right: 10%;
+    height: 40px;
+    width: 140px;
+    background: rgb(73, 146, 255);
+    border: solid rgb(224, 224, 224) 1px;
+    border-radius: 1px;
+    text-align: center; 
+    color: white;
+    padding-bottom: 8px;
+    text-align: left;
+    padding-left: 20px;
+}
+.qlkh{
+    font-family:  monospace;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(200px);
+}

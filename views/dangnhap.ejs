@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="loginform.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            console.log(document.getElementById("username"))
+        })
+    </script>
+</head>
+<body>
+    <div class="qlkh">Đăng nhập</div>
+    <div class="form">
+    <div style="opacity: 0.7;margin-bottom: 20px;margin-top: 15px;">Bạn phải đăng nhập để bắt đầu phiên làm việc này</div>
+    <form action="" method="POST">
+        <input type="text" placeholder="Account" class="textbox" name="username" id="username">
+        <input type="password" placeholder="Password" class="textbox" name="password" id="password">
+        <div style="display: block;">
+            <a href="/quenmatkhau" style="margin-top: 25px;float: left;margin-left: 10%;">Quên mật khẩu?</a>
+            <button type="submit" class="btn" ><img src="/image/login.png" alt="" style="height: 20px;width: 20px;transform: translateY(5px);"> Đăng nhập</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

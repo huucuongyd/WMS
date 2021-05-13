@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Kho Hàng</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#optiondlsp").hide();
+            $("#optionpnh").hide();
+            $("#optionpxh").hide();
+            $("#phieunhaphang").click(function(){
+                $("#optionpnh").slideToggle("slow");
+            });
+            $("#dulieusanpham").click(function(){
+                $("#optiondlsp").slideToggle("slow");
+            });
+            $("#phieuxuathang").click(function(){
+                $("#optionpxh").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div>Quản Lý Bán Hàng</div>
+        <a href="/dangnhap"><img src="/image/out.png" style="float: right;transform: translateY(-10px);margin-right: 10px;"></a>        
+    </header>
+    <div class="left">
+        <div class="but" style="margin-top:30px"><img src="/image/home1.png" class="imagebut" > <a href="/trangchu">Trang chủ</a> </div>
+        <p>THIẾT LẬP DỮ LIỆU</p>
+        <div class="but" id="dulieusanpham"><img src="/image/database.png" class="imagebut" >Dữ liệu sản phẩm</div>
+        <div id="optiondlsp" class="list">
+            <li><a href="/loaisanpham">Loại hàng</a></li>
+            <li><a href="/donvitinh">Đơn vị tính</a></li>
+            <li><a href="/sanpham">Sản phẩm</a></li>
+        </div>
+        <div class="but"><img src="/image/factory.png" class="imagebut"><a href="/nhacc">Nhà cung cấp</a></div>
+        <p>DỮ LIỆU NHẬP XUẤT</p>
+        <div class="but" id="phieunhaphang"><img src="/image/log-in.png" class="imagebut">Phiếu nhập hàng</div>
+        <div id="optionpnh" class="list">
+            <li><a href="/nhaphang">Nhập hàng</a></li>
+            <li><a href="/sanphamdanhap">Sản phẩm đã nhập</a></li>
+        </div>
+        <div class="but" id="phieuxuathang"><img src="/image/logout.png" class="imagebut">Phiếu xuất hàng</div>
+        <div id="optionpxh" class="list">
+            <li><a href="/xuathang">Xuất hàng</a></li>
+            <li><a href="/sanphamdaxuat">Sản phẩm đã xuất</a></li>
+        </div>
+        <div class="but"><img src="/image/warehouse.png" class="imagebut"><a href="/dulieukho">Dữ liệu kho hàng</a></div>
+        <P>BÁO CÁO THỐNG KÊ</P>
+        <div class="but"><img src="/image/pie-chart.png" class="imagebut"><a href="/tknhapxuat">Thống kê nhập xuất</a></div>
+        <div class="but"><img src="/image/statistics.png" class="imagebut"><a href="/tktonkho">Thống kê tồn kho</a></div>
+        <P>THÔNG TIN QUẢN TRỊ</P>
+        <div class="but"><img src="/image/key.png" class="imagebut"><a href="/doimatkhau">Đổi mật khẩu</a></div>
+    </div>
+    <div class="frame">
+        <div class="inside">
+            <div style="font-size: 30px;margin-bottom: 30px;">Thêm mới đơn vị tính</div>
+            <form action="" method="POST">
+            <div>Đơn vị tính</div>
+            <input type="text" class="textbox" name="donvitinh">
+            <button type="submit" class="submit">Thêm mới</button>
+            <button class="submit" style="background-color: brown;"><a href="/donvitinh">Hủy bỏ</a></button>
+        </form>
+        </div>
+        
+    </div>
+</body>
+</html>
